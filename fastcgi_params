@@ -22,5 +22,5 @@ fastcgi_param   SERVER_NAME         $http_host;
 fastcgi_param   SERVER_PORT         $server_port;
 fastcgi_param   SERVER_PROTOCOL     $server_protocol;
 fastcgi_param   SERVER_SOFTWARE     nginx/$nginx_version;
-fastcgi_param   COUNTRY_CODE        $geoip2_data_country_code;
-fastcgi_param   COUNTRY_NAME        $geoip2_data_country_name;
+#fastcgi_param   COUNTRY_CODE        $geoip2_data_country_code;
+#fastcgi_param   COUNTRY_NAME        $geoip2_data_country_name;
